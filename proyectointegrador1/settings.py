@@ -78,12 +78,13 @@ WSGI_APPLICATION = 'proyectointegrador1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'TalleresPI',
-        'USER': 'postgres',
-        'PASSWORD':'savaljkm',
-        'HOST': 'localhost'
+        'NAME': 'Predio',
+        'USER': 'predioadmin@predioserver',
+        'PASSWORD':'Manuel2828',
+        'HOST': 'predioserver.postgres.database.azure.com'
     }
 }
+
 
 
 # Password validation
